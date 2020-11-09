@@ -1,0 +1,20 @@
+name: nextstrain
+channels:
+- bioconda
+- defaults
+dependencies:
+- cvxopt
+- fasttree
+- iqtree
+- mafft
+- opencv
+- pandas
+- python=3.6*
+- nodejs=10
+- raxml
+- vcftools
+- git
+- pip
+- pip:
+  - nextstrain-augur
+  - nextstrain-cli
